@@ -11,4 +11,4 @@ unzip temp.zip
 
 pip3 install -r requirements.txt -q --no-cache-dir
 
-gunicorn main:app
+python3 -m gunicorn --bind 0.0.0.0:31145 main:app
