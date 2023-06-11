@@ -21,7 +21,7 @@ ENV PATH="/usr/src/app/.local/bin:${PATH}"
 
 COPY . .
 
-EXPOSE 6700
+EXPOSE 31145
 
 RUN chmod +x start.sh
 
